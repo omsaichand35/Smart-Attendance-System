@@ -36,3 +36,4 @@ The Android frontend experienced significant build blockers related to JVM toolc
 - **`mvnw` Permissions:** Elevated script permissions (`chmod +x`) to assure the Jenkins runner and Docker build stages can execute wrapper commands smoothly.
 - **Database Security:** Cleaned `application.properties` to ensure smooth JDBC connections from inside the Docker bridge network to the local SQL server utilizing standard SQL authentication (`SA` user) instead of strict Windows Integrated Security.
 
+
